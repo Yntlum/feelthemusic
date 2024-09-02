@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+header img{
+    margin: 15px;
+}
+
+main {
+    display: flex;
+}
+
+main img { 
+    width: 50%; 
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+main div {
+    width: 50%;
+    flex-direction: row;
+}
+
+main .button {
+    border-radius: 10px;
+    background-color: deeppink;
+    color: white;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    
+}
+
+p{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+div{
+    color: white;
+}
+button{
+    background-color: aqua;
+    border-radius: 15%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    line-height: 2
+  }
+  body{
+    font-size: 15px;
+  }
+
